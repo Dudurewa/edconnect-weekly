@@ -16,7 +16,7 @@
         <main>
             <section>
                 <h2>John Doe</h2>
-                <p>john.doe@gmail.com</p><br/>
+                <p>john.doe@gmail.com</p>
                 <ul>
                     <li>Program: Computer Science</li>
                     <li>Matri: 00/0000</li>
@@ -24,37 +24,36 @@
                 </ul>
             </section>
             <section>
-                <form>
-                    <h1>Update Profile</h1>
-                <label for="fname">First Name: <input type="text" name="firstName"/></label><br/><br>
-            <label for="lname">Last Name: <input type="text" name="lastName"/></label><br/><br>
-            <label for="email">Email address: <input type="email" name="email"/></label><br/><br>
-            <label for="password">Password: <input type="password" name="password"/></label><br/><br>
-            <label for="matricNumber">Matric Number: <input type="text" name="matricNumber"/></label><br/><br>
-            <label for="program">Program: <select>
-                    <option value="computer_science">Computer Science </option>
-                    <option value="computer_information_systems">Computer Information Systems</option>
-                    <option value="computer_technology">Computer Technology</option>
-                </select></label><br/><br>
-            <label for="year">Graduation Year: <select name="program">
-                <option value="2013">2013</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-            </select></label><br/><br>
-            <input type="submit"/>
+                <h2>Update Profile</h2>
+                <form name="updateProfile" >
+                    <label for="firstName">First Name: <input type="text" name="firstName"/></label><br/><br>
+                    <label for="lastName">Last Name: <input type="text" name="lastName"/></label><br/><br>
+                    <label for="email">Email address: <input type="email" name="email"/></label><br/><br>
+                    <label for="matricNumber">Matric Number: <input type="text" name="matricNumber"/></label><br/><br>
+                    <label for="program">Program: <select name="program">
+                        <option value="computer_science">Computer Science </option>
+                        <option value="computer_information_systems">Computer Information Systems</option>
+                        <option value="computer_technology">Computer Technology</option>
+                    </select></label><br/><br>
+                <label for="graduationYear">Graduation Year: <select name="graduationYear">
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    </select></label><br/><br>
+                    <input type="submit"/>
                 </form>
             </section>
             <section>
+                <h2>Change Password</h2>
                <form name="changePassword">
-                    <h1>Change Password</h1>
-                    <label for="current_password">Current Password: <input type="password" name="currentPassword"/><br/><br/>
-                    <label for="new_passwword">New Password: <input type="password" name="newPasswword"/><br/><br/>
-                    <label for="confirm_password">Confirm Password: <input type="password" name="confirmPassword"/></label><br/><br/>
+                    <label for="currentPassword">Current Password: <input type="password" name="currentPassword"/><br/><br/>
+                    <label for="newPasswword">New Password: <input type="password" name="newPasswword"/><br/><br/>
+                    <label for="confirmPassword">Confirm Password: <input type="password" name="confirmPassword"/></label><br/><br/>
                     <input type="submit">
                 </form>
             </section>
